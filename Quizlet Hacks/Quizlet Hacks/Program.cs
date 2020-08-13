@@ -63,13 +63,36 @@ namespace Quizlet_Hacks
             string _b = Console.ReadLine();
             Console.Write("Angle Opposing Second Side Length: ");
             string _B = Console.ReadLine();
-            double a = Convert.ToDouble(_a);
-            double b = Convert.ToDouble(_b);
-            double B = Convert.ToDouble(_B);
-            double C = Math.PI / 180;
-            double A = C*Math.Asin(((a*(C*Math.Sin(B*C)))/b)*C);
-            Console.WriteLine("Output: B = " + A);
-            Console.ReadLine();
+            try
+            {
+                double a = Convert.ToDouble(_a);
+                try
+                {
+                    double b = Convert.ToDouble(_b);
+                    try
+                    {
+                        double B = Convert.ToDouble(_B);
+                        double C = Math.PI / 180;
+                        double A = C * Math.Asin(((a * (C * Math.Sin(B * C))) / b) * C);
+                        Console.WriteLine("Output: B = " + A);
+                        Console.ReadLine();
+                    }
+                    catch(Exception e)
+                    {
+                        Console.WriteLine(e.Message);
+                        Console.ReadLine();
+                    }
+                }
+                catch (Exception e)
+                {
+                    Console.WriteLine(e.Message);
+                    Console.ReadLine();
+                }
+            }
+            catch (Exception e){
+                Console.WriteLine(e.Message);
+                Console.ReadLine();
+            }
         }
 
         private static void SineFindSide() {
@@ -80,13 +103,36 @@ namespace Quizlet_Hacks
             string _b = Console.ReadLine();
             Console.Write("Angle Opposing Second Side Length: ");
             string _B = Console.ReadLine();
-            double A = Convert.ToDouble(_A);
-            double b = Convert.ToDouble(_b);
-            double B = Convert.ToDouble(_B);
-            double C = Math.PI / 180;
-            double a = ((C*Math.Sin(A*C)*b)/(C*Math.Sin(B*C)));
-            Console.WriteLine("Output: a = " + a);
-            Console.ReadLine();
+            try
+            {
+                double A = Convert.ToDouble(_A);
+                try {
+                    double b = Convert.ToDouble(_b);
+                    try
+                    {
+                        double B = Convert.ToDouble(_B);
+                        double C = Math.PI / 180;
+                        double a = ((C * Math.Sin(A * C) * b) / (C * Math.Sin(B * C)));
+                        Console.WriteLine("Output: a = " + a);
+                        Console.ReadLine();
+                    }
+                    catch (Exception e)
+                    {
+                        Console.WriteLine(e.Message);
+                        Console.ReadLine();
+                    }
+                }
+                catch (Exception e)
+                {
+                    Console.WriteLine(e.Message);
+                    Console.ReadLine();
+                }
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+                Console.ReadLine();
+            }
 
         }
 
@@ -112,37 +158,87 @@ namespace Quizlet_Hacks
         }
 
         private static void CosineFindAngle() {
+            Console.Clear();
             Console.Write("Side Length Opposing Angle: ");
             string _c = Console.ReadLine();
             Console.Write("Second Side Length: ");
             string _a = Console.ReadLine();
             Console.Write("Third Side Length: ");
             string _b = Console.ReadLine();
-            double a = Convert.ToDouble(_a);
-            double b = Convert.ToDouble(_b);
-            double c = Convert.ToDouble(_c);
-            double d = 180 / Math.PI;
-            double p = -(((c*c)-(a*a)-(b*b)) / (2*a*b));
-            double C;
-            C = d * Math.Acos(p);
-            Console.WriteLine("Output: C = " + C);
-            Console.ReadLine();
+            try
+            {
+                double a = Convert.ToDouble(_a);
+                try
+                {
+                    double b = Convert.ToDouble(_b);
+                    try
+                    {
+                        double c = Convert.ToDouble(_c);
+                        double d = 180 / Math.PI;
+                        double p = -(((c * c) - (a * a) - (b * b)) / (2 * a * b));
+                        double C;
+                        C = d * Math.Acos(p);
+                        Console.WriteLine("Output: C = " + C);
+                        Console.ReadLine();
+                    }
+                    catch (Exception e)
+                    {
+                        Console.WriteLine(e.Message);
+                        Console.ReadLine();
+                    }
+                }
+                catch (Exception e)
+                {
+                    Console.WriteLine(e.Message);
+                    Console.ReadLine();
+                }
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+                Console.ReadLine();
+            }
         }
 
         private static void CosineFindSide() {
+            Console.Clear();
             Console.Write("Angle Opposing Side Length: ");
             string _C = Console.ReadLine();
             Console.Write("Second Side Length: ");
             string _a = Console.ReadLine();
             Console.Write("Third Side Length: ");
             string _b = Console.ReadLine();
-            double a = Convert.ToDouble(_a);
-            double b = Convert.ToDouble(_b);
-            double C = Convert.ToDouble(_C);
-            double d = Math.PI / 180;
-            double c = Math.Sqrt((a*a) + (b*b) + (-2 * a * b) * Math.Cos(d*C));
-            Console.WriteLine("Output: c = " + c);
-            Console.ReadLine();
+            try
+            {
+                double a = Convert.ToDouble(_a);
+                try
+                {
+                    double b = Convert.ToDouble(_b);
+                    try
+                    {
+                        double C = Convert.ToDouble(_C);
+                        double d = Math.PI / 180;
+                        double c = Math.Sqrt((a * a) + (b * b) + (-2 * a * b) * Math.Cos(d * C));
+                        Console.WriteLine("Output: c = " + c);
+                        Console.ReadLine();
+                    }
+                    catch (Exception e)
+                    {
+                        Console.WriteLine(e.Message);
+                        Console.ReadLine();
+                    }
+                }
+                catch (Exception e)
+                {
+                    Console.WriteLine(e.Message);
+                    Console.ReadLine();
+                }
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+                Console.ReadLine();
+            }
         }
 
     }
