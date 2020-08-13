@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.0": {
+      "Quizlet Hacks/1.0.0": {
+        "runtime": {
+          "Quizlet Hacks.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Quizlet Hacks/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
