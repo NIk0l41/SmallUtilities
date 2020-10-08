@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Nicholas Maver\\VS Projects\\Quizlet Hacks\\Quizlet Hacks\\Quizlet Hacks.csproj": {}
+    "C:\\Users\\Nicholas Maver\\Desktop\\GitHub\\SmallUtilities\\Quizlet Hacks\\Quizlet Hacks\\Quizlet Hacks.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Nicholas Maver\\VS Projects\\Quizlet Hacks\\Quizlet Hacks\\Quizlet Hacks.csproj": {
+    "C:\\Users\\Nicholas Maver\\Desktop\\GitHub\\SmallUtilities\\Quizlet Hacks\\Quizlet Hacks\\Quizlet Hacks.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Nicholas Maver\\VS Projects\\Quizlet Hacks\\Quizlet Hacks\\Quizlet Hacks.csproj",
+        "projectUniqueName": "C:\\Users\\Nicholas Maver\\Desktop\\GitHub\\SmallUtilities\\Quizlet Hacks\\Quizlet Hacks\\Quizlet Hacks.csproj",
         "projectName": "Quizlet Hacks",
-        "projectPath": "C:\\Users\\Nicholas Maver\\VS Projects\\Quizlet Hacks\\Quizlet Hacks\\Quizlet Hacks.csproj",
+        "projectPath": "C:\\Users\\Nicholas Maver\\Desktop\\GitHub\\SmallUtilities\\Quizlet Hacks\\Quizlet Hacks\\Quizlet Hacks.csproj",
         "packagesPath": "C:\\Users\\Nicholas Maver\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Nicholas Maver\\VS Projects\\Quizlet Hacks\\Quizlet Hacks\\obj\\",
+        "outputPath": "C:\\Users\\Nicholas Maver\\Desktop\\GitHub\\SmallUtilities\\Quizlet Hacks\\Quizlet Hacks\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Nicholas Maver\\AppData\\Roaming\\NuGet\\NuGet.Config",
