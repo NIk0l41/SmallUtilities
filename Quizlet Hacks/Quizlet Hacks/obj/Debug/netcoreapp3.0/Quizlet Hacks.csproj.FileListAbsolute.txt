@@ -1,0 +1,11 @@
+C:\Users\Nicholas Maver\VS Projects\Quizlet Hacks\Quizlet Hacks\obj\Debug\netcoreapp3.0\Quizlet Hacks.csprojAssemblyReference.cache
+C:\Users\Nicholas Maver\VS Projects\Quizlet Hacks\Quizlet Hacks\obj\Debug\netcoreapp3.0\Quizlet Hacks.AssemblyInfoInputs.cache
+C:\Users\Nicholas Maver\VS Projects\Quizlet Hacks\Quizlet Hacks\obj\Debug\netcoreapp3.0\Quizlet Hacks.AssemblyInfo.cs
+C:\Users\Nicholas Maver\VS Projects\Quizlet Hacks\Quizlet Hacks\bin\Debug\netcoreapp3.0\Quizlet Hacks.exe
+C:\Users\Nicholas Maver\VS Projects\Quizlet Hacks\Quizlet Hacks\bin\Debug\netcoreapp3.0\Quizlet Hacks.deps.json
+C:\Users\Nicholas Maver\VS Projects\Quizlet Hacks\Quizlet Hacks\bin\Debug\netcoreapp3.0\Quizlet Hacks.runtimeconfig.json
+C:\Users\Nicholas Maver\VS Projects\Quizlet Hacks\Quizlet Hacks\bin\Debug\netcoreapp3.0\Quizlet Hacks.runtimeconfig.dev.json
+C:\Users\Nicholas Maver\VS Projects\Quizlet Hacks\Quizlet Hacks\bin\Debug\netcoreapp3.0\Quizlet Hacks.dll
+C:\Users\Nicholas Maver\VS Projects\Quizlet Hacks\Quizlet Hacks\bin\Debug\netcoreapp3.0\Quizlet Hacks.pdb
+C:\Users\Nicholas Maver\VS Projects\Quizlet Hacks\Quizlet Hacks\obj\Debug\netcoreapp3.0\Quizlet Hacks.dll
+C:\Users\Nicholas Maver\VS Projects\Quizlet Hacks\Quizlet Hacks\obj\Debug\netcoreapp3.0\Quizlet Hacks.pdb
