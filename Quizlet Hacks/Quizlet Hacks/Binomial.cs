@@ -74,6 +74,8 @@ namespace Quizlet_Hacks
                     {
                         int x = Convert.ToInt32(_a);
                         double result = BinoSingle(n, x, p);
+                        Console.WriteLine(result);
+                        Console.ReadLine();
                     }
                     catch (Exception e) {
                         Console.WriteLine(e.Message);
@@ -85,19 +87,24 @@ namespace Quizlet_Hacks
             }
         }
 
-        static double BinoSingle(int n, int x, double p) {
-            int C, m, nf, xf;
-            double q;
-            q = 1 - p;
-            m = x - n;
-            nf = 1;
-            for (int i = 0; i < n; i++) {
-                nf *= (i + 1);
+        static long Factorial(long input) {
+            long a = 1;
+            for (int i = 0; i < input; i++) {
+                a *= (i + 1);
             }
-            for (int i = 0; i < x; i++) {
-                
-            }
+            return a;
+        }
 
+        static double BinoSingle(int n, int x, double p) {
+            int m;
+            double C, q;
+            q = 1 - p;
+            m = n-x;
+            long nl, xl, dl;
+            nl = Factorial(Convert.ToInt64(n));
+            xl = Factorial(Convert.ToInt64(x));
+            dl = Factorial(Convert.ToInt64(m));
+            C = (nl) / (xl * dl);
             double a = C * Math.Pow(p, x) * Math.Pow(q, m);
             return a;
         }
