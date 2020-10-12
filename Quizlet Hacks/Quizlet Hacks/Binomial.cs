@@ -34,14 +34,14 @@ namespace Quizlet_Hacks
             try
             {
                 int n = Convert.ToInt32(_a);
+                Console.WriteLine("Probability of Success");
                 Console.WriteLine("You must input the following as fraction form.");
-                Console.WriteLine("Please use integers.");
                 Console.Write("Numerator (Top): ");
                 string _b = Console.ReadLine();
                 try
                 {
                     int f1 = Convert.ToInt32(_b);
-                    Console.Write("Denominator: ");
+                    Console.Write("Denominator (Bottom): ");
                     string _c = Console.ReadLine();
                     try
                     {
@@ -86,7 +86,7 @@ namespace Quizlet_Hacks
                     string _b = Console.ReadLine();
                     try {
                         int lb = Convert.ToInt32(_b);
-                        Console.Write("Upper Bound");
+                        Console.Write("Upper Bound: ");
                         string _c = Console.ReadLine();
                         try
                         {
@@ -116,7 +116,7 @@ namespace Quizlet_Hacks
         }
 
         static long Factorial(long input) {
-            long a = 1;
+            long a = 1L;
             for (int i = 0; i < input; i++) {
                 a *= (i + 1);
             }
@@ -139,10 +139,12 @@ namespace Quizlet_Hacks
 
         static double BinoMulti(int n, double p, int ub, int lb) {
             int diff = ub - lb;
-            double result = 1;
+            double result = 0;
             for (int i = 0; i <= diff; i++)
             {
-                result += BinoSingle(n, ub + i, p);
+                double phi = BinoSingle(n, lb+ i, p);
+                result += phi;
+                Console.WriteLine(phi);
             }
             return result;
         }
