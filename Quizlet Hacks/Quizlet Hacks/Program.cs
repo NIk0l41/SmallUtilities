@@ -32,24 +32,8 @@ namespace Quizlet_Hacks
                 case "3":
                     BinoMenu();
                     return true;
-                case "4":
-                    int m;
-                    double C, q;
-                    double p = 3 / 4;
-                    int n = 10;
-                    int x = 3;
-                    q = 1 - p;
-                    m = n - x;
-                    long nl, xl, dl;
-                    nl = Factorial(Convert.ToInt64(n));
-                    xl = Factorial(Convert.ToInt64(x));
-                    dl = Factorial(Convert.ToInt64(m));
-                    C = (nl) / (xl * dl);
-                    Print(C);
-                    double a = C * Math.Pow(p, x) * Math.Pow(q, m);
-                    Print(Math.Pow(p, x));
-                    Print(Math.Pow(q, m));
-                    Print(a);
+                case "9":
+                    Debug();
                     return true;
                 case "0":
                     return false;
@@ -59,6 +43,11 @@ namespace Quizlet_Hacks
         }
 
         static void Print(double input) {
+            Console.WriteLine(input);
+            Console.ReadLine();
+        }
+
+        static void Say(string input) {
             Console.WriteLine(input);
             Console.ReadLine();
         }

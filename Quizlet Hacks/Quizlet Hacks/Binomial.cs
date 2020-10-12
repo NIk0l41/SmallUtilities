@@ -46,22 +46,21 @@ namespace Quizlet_Hacks
                     try
                     {
                         int f2 = Convert.ToInt32(_c);
-                        double f = Convert.ToDouble(f1/f2);
+                        double f = Convert.ToDouble((double)f1/(double)f2);
                         BinoDetermineCalc(BPD, n, f);
                     }
                     catch (Exception e){
-                        Console.WriteLine(e.Message);
-                        Console.ReadLine();
+                        Say(e.Message);
                     }
                 }
-                catch (Exception e) {
-                    Console.WriteLine(e.Message);
-                    Console.ReadLine();
+                catch (Exception e)
+                {
+                    Say(e.Message);
                 }
             }
-            catch (Exception e) {
-                Console.WriteLine(e.Message);
-                Console.ReadLine();
+            catch (Exception e)
+            {
+                Say(e.Message);
             }
         }
 
@@ -77,12 +76,41 @@ namespace Quizlet_Hacks
                         Console.WriteLine(result);
                         Console.ReadLine();
                     }
-                    catch (Exception e) {
-                        Console.WriteLine(e.Message);
-                        Console.ReadLine();
+                    catch (Exception e)
+                    {
+                        Say(e.Message);
                     }
                     break;
                 case false:
+                    Console.Write("Lower Bound: ");
+                    string _b = Console.ReadLine();
+                    try {
+                        int lb = Convert.ToInt32(_b);
+                        Console.Write("Upper Bound");
+                        string _c = Console.ReadLine();
+                        try
+                        {
+                            int ub = Convert.ToInt32(_c);
+                            if ((ub - lb) > 0)
+                            {
+                                double result2 = BinoMulti(n, p, ub, lb);
+                                Console.WriteLine(result2);
+                                Console.ReadLine();
+
+                            }
+                            else {
+                                Console.WriteLine("The bounds must have a positive difference.");
+                                Console.ReadLine();
+                            }
+                        }
+                        catch (Exception e)
+                        {
+                            Say(e.Message);
+                        }
+                    } catch (Exception e)
+                    {
+                        Say(e.Message);
+                    }
                     break;
             }
         }
@@ -107,6 +135,16 @@ namespace Quizlet_Hacks
             C = (nl) / (xl * dl);
             double a = C * Math.Pow(p, x) * Math.Pow(q, m);
             return a;
+        }
+
+        static double BinoMulti(int n, double p, int ub, int lb) {
+            int diff = ub - lb;
+            double result = 1;
+            for (int i = 0; i <= diff; i++)
+            {
+                result += BinoSingle(n, ub + i, p);
+            }
+            return result;
         }
     }
 }
