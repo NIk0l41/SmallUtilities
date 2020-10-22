@@ -6,6 +6,9 @@ namespace Quizlet_Hacks
 {
     partial class Program
     {
+        /// <summary>
+        /// The menu for further Sine Functions.
+        /// </summary>
         private static void SineMenu()
         {
             Console.Clear();
@@ -28,6 +31,9 @@ namespace Quizlet_Hacks
             }
         }
 
+        /// <summary>
+        /// Uses the Sine rule to return a desired angle.
+        /// </summary>
         private static void SineFindAngle()
         {
             Console.Clear();
@@ -48,28 +54,27 @@ namespace Quizlet_Hacks
                         double B = Convert.ToDouble(_B);
                         double C = Math.PI / 180;
                         double A = C * Math.Asin(((a * (C * Math.Sin(B * C))) / b) * C);
-                        Console.WriteLine("Output: B = " + A);
-                        Console.ReadLine();
+                        Say("Output: B = " + A);
                     }
                     catch (Exception e)
                     {
-                        Console.WriteLine(e.Message);
-                        Console.ReadLine();
+                        Say(e.Message);
                     }
                 }
                 catch (Exception e)
                 {
-                    Console.WriteLine(e.Message);
-                    Console.ReadLine();
+                    Say(e.Message);
                 }
             }
             catch (Exception e)
             {
-                Console.WriteLine(e.Message);
-                Console.ReadLine();
+                Say(e.Message);
             }
         }
 
+        /// <summary>
+        /// Uses the Sine Rule to return the desired side length
+        /// </summary>
         private static void SineFindSide()
         {
             Console.Clear();
@@ -90,29 +95,28 @@ namespace Quizlet_Hacks
                         double B = Convert.ToDouble(_B);
                         double C = Math.PI / 180;
                         double a = ((C * Math.Sin(A * C) * b) / (C * Math.Sin(B * C)));
-                        Console.WriteLine("Output: a = " + a);
-                        Console.ReadLine();
+                        Say("Output: a = " + a);
                     }
                     catch (Exception e)
                     {
-                        Console.WriteLine(e.Message);
-                        Console.ReadLine();
+                        Say(e.Message);
                     }
                 }
                 catch (Exception e)
                 {
-                    Console.WriteLine(e.Message);
-                    Console.ReadLine();
+                    Say(e.Message);
                 }
             }
             catch (Exception e)
             {
-                Console.WriteLine(e.Message);
-                Console.ReadLine();
+                Say(e.Message);
             }
 
         }
 
+        /// <summary>
+        /// The menu for further Cosine Functions
+        /// </summary>
         private static void CosineMenu()
         {
             Console.Clear();
@@ -135,6 +139,9 @@ namespace Quizlet_Hacks
             }
         }
 
+        /// <summary>
+        /// Uses the Cosine Rule to return a desired angle.
+        /// </summary>
         private static void CosineFindAngle()
         {
             Console.Clear();
@@ -157,28 +164,27 @@ namespace Quizlet_Hacks
                         double p = -(((c * c) - (a * a) - (b * b)) / (2 * a * b));
                         double C;
                         C = d * Math.Acos(p);
-                        Console.WriteLine("Output: C = " + C);
-                        Console.ReadLine();
+                        Say("Output: C = " + C);
                     }
                     catch (Exception e)
                     {
-                        Console.WriteLine(e.Message);
-                        Console.ReadLine();
+                        Say(e.Message);
                     }
                 }
                 catch (Exception e)
                 {
-                    Console.WriteLine(e.Message);
-                    Console.ReadLine();
+                    Say(e.Message);
                 }
             }
             catch (Exception e)
             {
-                Console.WriteLine(e.Message);
-                Console.ReadLine();
+                Say(e.Message);
             }
         }
 
+        /// <summary>
+        /// Uses the Cosine Rule to return a desired side length.
+        /// </summary>
         private static void CosineFindSide()
         {
             Console.Clear();
@@ -199,25 +205,21 @@ namespace Quizlet_Hacks
                         double C = Convert.ToDouble(_C);
                         double d = Math.PI / 180;
                         double c = Math.Sqrt((a * a) + (b * b) + (-2 * a * b) * Math.Cos(d * C));
-                        Console.WriteLine("Output: c = " + c);
-                        Console.ReadLine();
+                        Say("Output: c = " + c);
                     }
                     catch (Exception e)
                     {
-                        Console.WriteLine(e.Message);
-                        Console.ReadLine();
+                        Say(e.Message);
                     }
                 }
                 catch (Exception e)
                 {
-                    Console.WriteLine(e.Message);
-                    Console.ReadLine();
+                    Say(e.Message);
                 }
             }
             catch (Exception e)
             {
-                Console.WriteLine(e.Message);
-                Console.ReadLine();
+                Say(e.Message);
             }
         }
 

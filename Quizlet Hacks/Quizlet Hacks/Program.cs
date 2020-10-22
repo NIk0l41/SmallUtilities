@@ -11,9 +11,12 @@ namespace Quizlet_Hacks
             while (showMenu) {
                 showMenu = LoadMenu();
             }
-
         }
 
+        /// <summary>
+        /// The Main Menu
+        /// </summary>
+        /// <returns>Whether the application should close or not.</returns>
         private static bool LoadMenu() {
             Console.Clear();
             Console.WriteLine("Function:");
@@ -21,6 +24,8 @@ namespace Quizlet_Hacks
             Console.WriteLine("2) Cosine Rule");
             Console.WriteLine("3) Determine Binomial Probability");
             Console.WriteLine("0) Exit");
+            Console.WriteLine("");
+            Console.WriteLine("9) Run Debug Functions");
 
             switch (Console.ReadLine()) {
                 case "1":
@@ -33,7 +38,7 @@ namespace Quizlet_Hacks
                     BinoMenu();
                     return true;
                 case "9":
-                    Debug();
+                    Debug(deb);
                     return true;
                 case "0":
                     return false;
@@ -42,11 +47,19 @@ namespace Quizlet_Hacks
             }
         }
 
+        /// <summary>
+        /// A Makeshift Console.WriteLine Function for ease of typing.
+        /// </summary>
+        /// <param name="input">The desired number to print</param>
         static void Print(double input) {
             Console.WriteLine(input);
             Console.ReadLine();
         }
 
+        /// <summary>
+        /// A Makeshift Console.WriteLing Function for ease of typing.
+        /// </summary>
+        /// <param name="input">The desired string to print.</param>
         static void Say(string input) {
             Console.WriteLine(input);
             Console.ReadLine();
