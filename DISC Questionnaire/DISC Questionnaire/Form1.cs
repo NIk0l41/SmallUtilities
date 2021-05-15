@@ -20,6 +20,19 @@ namespace DISC_Questionnaire
         private void Form1_Load(object sender, EventArgs e)
         {
             DiscCalculator pog = new DiscCalculator();
+            int[] a = { 5, 14, 2, 3 };
+            a = pog.g1(a);
+            label1.Text = "";
+            for (int i = 0; i < a.Length; i++) {
+                if (i == a.Length - 1)
+                {
+                    label1.Text += a[i].ToString();
+                }
+                else
+                {
+                    label1.Text += a[i] + ", ";
+                }
+            }
         }
     }
 }

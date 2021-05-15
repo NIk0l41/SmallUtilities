@@ -1,0 +1,10 @@
+C:\Users\Nic\Desktop\Github Repos\SmallUtilities\DISC Questionnaire\DISC Questionnaire\bin\Debug\DISC Questionnaire.exe.config
+C:\Users\Nic\Desktop\Github Repos\SmallUtilities\DISC Questionnaire\DISC Questionnaire\bin\Debug\DISC Questionnaire.exe
+C:\Users\Nic\Desktop\Github Repos\SmallUtilities\DISC Questionnaire\DISC Questionnaire\bin\Debug\DISC Questionnaire.pdb
+C:\Users\Nic\Desktop\Github Repos\SmallUtilities\DISC Questionnaire\DISC Questionnaire\obj\Debug\DISC Questionnaire.csprojAssemblyReference.cache
+C:\Users\Nic\Desktop\Github Repos\SmallUtilities\DISC Questionnaire\DISC Questionnaire\obj\Debug\DISC_Questionnaire.Form1.resources
+C:\Users\Nic\Desktop\Github Repos\SmallUtilities\DISC Questionnaire\DISC Questionnaire\obj\Debug\DISC_Questionnaire.Properties.Resources.resources
+C:\Users\Nic\Desktop\Github Repos\SmallUtilities\DISC Questionnaire\DISC Questionnaire\obj\Debug\DISC Questionnaire.csproj.GenerateResource.cache
+C:\Users\Nic\Desktop\Github Repos\SmallUtilities\DISC Questionnaire\DISC Questionnaire\obj\Debug\DISC Questionnaire.csproj.CoreCompileInputs.cache
+C:\Users\Nic\Desktop\Github Repos\SmallUtilities\DISC Questionnaire\DISC Questionnaire\obj\Debug\DISC Questionnaire.exe
+C:\Users\Nic\Desktop\Github Repos\SmallUtilities\DISC Questionnaire\DISC Questionnaire\obj\Debug\DISC Questionnaire.pdb
