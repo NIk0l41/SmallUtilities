@@ -9,3 +9,16 @@ C:\Users\Nicholas Maver\Desktop\GitHub\SmallUtilities\InterestCalculator\Interes
 C:\Users\Nicholas Maver\Desktop\GitHub\SmallUtilities\InterestCalculator\InterestCalculator\obj\Debug\netcoreapp3.0\InterestCalculator.AssemblyInfo.cs
 C:\Users\Nicholas Maver\Desktop\GitHub\SmallUtilities\InterestCalculator\InterestCalculator\obj\Debug\netcoreapp3.0\InterestCalculator.dll
 C:\Users\Nicholas Maver\Desktop\GitHub\SmallUtilities\InterestCalculator\InterestCalculator\obj\Debug\netcoreapp3.0\InterestCalculator.pdb
+C:\Users\Nic\Desktop\Github Repos\SmallUtilities\InterestCalculator\InterestCalculator\bin\Debug\netcoreapp3.0\InterestCalculator.exe
+C:\Users\Nic\Desktop\Github Repos\SmallUtilities\InterestCalculator\InterestCalculator\bin\Debug\netcoreapp3.0\InterestCalculator.deps.json
+C:\Users\Nic\Desktop\Github Repos\SmallUtilities\InterestCalculator\InterestCalculator\bin\Debug\netcoreapp3.0\InterestCalculator.runtimeconfig.json
+C:\Users\Nic\Desktop\Github Repos\SmallUtilities\InterestCalculator\InterestCalculator\bin\Debug\netcoreapp3.0\InterestCalculator.runtimeconfig.dev.json
+C:\Users\Nic\Desktop\Github Repos\SmallUtilities\InterestCalculator\InterestCalculator\bin\Debug\netcoreapp3.0\InterestCalculator.dll
+C:\Users\Nic\Desktop\Github Repos\SmallUtilities\InterestCalculator\InterestCalculator\bin\Debug\netcoreapp3.0\InterestCalculator.pdb
+C:\Users\Nic\Desktop\Github Repos\SmallUtilities\InterestCalculator\InterestCalculator\obj\Debug\netcoreapp3.0\InterestCalculator.csprojAssemblyReference.cache
+C:\Users\Nic\Desktop\Github Repos\SmallUtilities\InterestCalculator\InterestCalculator\obj\Debug\netcoreapp3.0\InterestCalculator.AssemblyInfoInputs.cache
+C:\Users\Nic\Desktop\Github Repos\SmallUtilities\InterestCalculator\InterestCalculator\obj\Debug\netcoreapp3.0\InterestCalculator.AssemblyInfo.cs
+C:\Users\Nic\Desktop\Github Repos\SmallUtilities\InterestCalculator\InterestCalculator\obj\Debug\netcoreapp3.0\InterestCalculator.csproj.CoreCompileInputs.cache
+C:\Users\Nic\Desktop\Github Repos\SmallUtilities\InterestCalculator\InterestCalculator\obj\Debug\netcoreapp3.0\InterestCalculator.dll
+C:\Users\Nic\Desktop\Github Repos\SmallUtilities\InterestCalculator\InterestCalculator\obj\Debug\netcoreapp3.0\InterestCalculator.pdb
+C:\Users\Nic\Desktop\Github Repos\SmallUtilities\InterestCalculator\InterestCalculator\obj\Debug\netcoreapp3.0\InterestCalculator.genruntimeconfig.cache
