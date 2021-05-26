@@ -1,0 +1,10 @@
+C:\Users\Nic\Desktop\Github Repos\SmallUtilities\ColourFinder\ColourFinder\bin\Debug\ColourFinder.exe.config
+C:\Users\Nic\Desktop\Github Repos\SmallUtilities\ColourFinder\ColourFinder\bin\Debug\ColourFinder.exe
+C:\Users\Nic\Desktop\Github Repos\SmallUtilities\ColourFinder\ColourFinder\bin\Debug\ColourFinder.pdb
+C:\Users\Nic\Desktop\Github Repos\SmallUtilities\ColourFinder\ColourFinder\obj\Debug\ColourFinder.csprojAssemblyReference.cache
+C:\Users\Nic\Desktop\Github Repos\SmallUtilities\ColourFinder\ColourFinder\obj\Debug\ColourFinder.Form1.resources
+C:\Users\Nic\Desktop\Github Repos\SmallUtilities\ColourFinder\ColourFinder\obj\Debug\ColourFinder.Properties.Resources.resources
+C:\Users\Nic\Desktop\Github Repos\SmallUtilities\ColourFinder\ColourFinder\obj\Debug\ColourFinder.csproj.GenerateResource.cache
+C:\Users\Nic\Desktop\Github Repos\SmallUtilities\ColourFinder\ColourFinder\obj\Debug\ColourFinder.csproj.CoreCompileInputs.cache
+C:\Users\Nic\Desktop\Github Repos\SmallUtilities\ColourFinder\ColourFinder\obj\Debug\ColourFinder.exe
+C:\Users\Nic\Desktop\Github Repos\SmallUtilities\ColourFinder\ColourFinder\obj\Debug\ColourFinder.pdb
